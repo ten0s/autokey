@@ -7,5 +7,6 @@ Installation:
 3. `sudo apt-get update`
 4. `sudo apt-get install autokey-gtk`
 5. `cd ~/.config`
-6. `git clone git@github.com:ten0s/autokey.git`
+6. `mv autokey autokey-backup`
+7. `git clone git@github.com:ten0s/autokey.git ` 
 
