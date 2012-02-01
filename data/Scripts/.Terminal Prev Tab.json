@@ -1,0 +1,33 @@
+{
+    "usageCount": 13, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "Terminal Prev Tab", 
+    "abbreviation": {
+        "wordChars": "[\\w]", 
+        "abbreviations": [
+            null
+        ], 
+        "immediate": false, 
+        "ignoreCase": false, 
+        "backspace": true, 
+        "triggerInside": false
+    }, 
+    "hotkey": {
+        "hotKey": "<tab>", 
+        "modifiers": [
+            "<ctrl>", 
+            "<shift>"
+        ]
+    }, 
+    "modes": [
+        3
+    ], 
+    "showInTrayMenu": false, 
+    "filter": {
+        "regex": "gnome-terminal.Gnome-terminal", 
+        "isRecursive": false
+    }, 
+    "type": "script", 
+    "store": {}
+}

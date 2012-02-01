@@ -1,0 +1,49 @@
+{
+    "folders": [], 
+    "toggleServiceHotkey": {
+        "hotKey": "k", 
+        "modifiers": [
+            "<shift>", 
+            "<super>"
+        ], 
+        "enabled": true
+    }, 
+    "settings": {
+        "showTrayIcon": true, 
+        "windowDefaultSize": [
+            864, 
+            586
+        ], 
+        "undoUsingBackspace": false, 
+        "enableQT4Workaround": false, 
+        "promptToSave": false, 
+        "interfaceType": "XRecord", 
+        "showToolbar": true, 
+        "serviceRunning": true, 
+        "columnWidths": [
+            150, 
+            50, 
+            100
+        ], 
+        "isFirstRun": false, 
+        "sortByUsageCount": false, 
+        "notificationIcon": "autokey-status", 
+        "hPanePosition": 286, 
+        "menuTakesFocus": false, 
+        "workAroundApps": ".*VirtualBox.*"
+    }, 
+    "userCodeDir": "/home/ten0s", 
+    "version": "0.81.4", 
+    "showPopupHotkey": {
+        "hotKey": null, 
+        "modifiers": [], 
+        "enabled": false
+    }, 
+    "configHotkey": {
+        "hotKey": "k", 
+        "modifiers": [
+            "<super>"
+        ], 
+        "enabled": true
+    }
+}
