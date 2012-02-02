@@ -1,1 +1,2 @@
-system.exec_command("thunderbird")
+import subprocess
+subprocess.Popen(['thunderbird']) 

@@ -1,1 +1,2 @@
-system.exec_command("gnome-terminal")
+import subprocess
+subprocess.Popen(['gnome-terminal'])

@@ -1,1 +1,2 @@
-system.exec_command("firefox")
+import subprocess
+subprocess.Popen(['firefox']) 

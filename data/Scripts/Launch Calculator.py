@@ -1,1 +1,2 @@
-system.exec_command("gcalctool")
+import subprocess
+subprocess.Popen(['gcalctool']) 

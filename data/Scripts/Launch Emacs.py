@@ -1,1 +1,2 @@
-system.exec_command("emacs")
+import subprocess
+subprocess.Popen(['emacs']) 
