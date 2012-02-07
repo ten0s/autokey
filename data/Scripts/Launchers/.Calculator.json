@@ -1,8 +1,8 @@
 {
-    "usageCount": 21, 
+    "usageCount": 7, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Display Window Information", 
+    "description": "Calculator", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [
@@ -14,7 +14,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "k", 
         "modifiers": [
             "<super>"
         ]

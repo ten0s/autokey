@@ -1,8 +1,8 @@
 {
-    "usageCount": 21, 
+    "usageCount": 19, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Display Window Information", 
+    "description": "C-N", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [
@@ -14,9 +14,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "n", 
         "modifiers": [
-            "<super>"
+            "<ctrl>"
         ]
     }, 
     "modes": [
@@ -24,7 +24,7 @@
     ], 
     "showInTrayMenu": false, 
     "filter": {
-        "regex": null, 
+        "regex": "skype.Skype", 
         "isRecursive": false
     }, 
     "type": "script", 

@@ -1,8 +1,8 @@
 {
-    "usageCount": 21, 
+    "usageCount": 9, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Display Window Information", 
+    "description": "Emacs", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [
@@ -14,7 +14,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "e", 
         "modifiers": [
             "<super>"
         ]
