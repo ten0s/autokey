@@ -11,8 +11,8 @@
     "settings": {
         "showTrayIcon": true, 
         "windowDefaultSize": [
-            864, 
-            586
+            1162, 
+            684
         ], 
         "undoUsingBackspace": false, 
         "enableQT4Workaround": false, 
@@ -28,7 +28,7 @@
         "isFirstRun": false, 
         "sortByUsageCount": false, 
         "notificationIcon": "autokey-status", 
-        "hPanePosition": 286, 
+        "hPanePosition": 444, 
         "menuTakesFocus": false, 
         "workAroundApps": ".*VirtualBox.*"
     }, 
