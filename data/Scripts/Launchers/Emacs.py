@@ -1,2 +1,2 @@
 import subprocess
-subprocess.Popen(['emacs']) 
+subprocess.Popen(['emacs', '-mm']) 
