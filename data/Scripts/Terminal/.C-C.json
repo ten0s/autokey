@@ -1,0 +1,30 @@
+{
+    "usageCount": 447, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "C-C", 
+    "abbreviation": {
+        "wordChars": "[\\w]", 
+        "abbreviations": [], 
+        "immediate": false, 
+        "ignoreCase": false, 
+        "backspace": true, 
+        "triggerInside": false
+    }, 
+    "hotkey": {
+        "hotKey": "c", 
+        "modifiers": [
+            "<ctrl>"
+        ]
+    }, 
+    "modes": [
+        3
+    ], 
+    "showInTrayMenu": false, 
+    "filter": {
+        "regex": "gnome-terminal.Gnome-terminal", 
+        "isRecursive": false
+    }, 
+    "type": "script", 
+    "store": {}
+}
