@@ -1,20 +1,18 @@
 {
-    "usageCount": 17, 
+    "usageCount": 3, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Emacs", 
+    "description": "Define selected text", 
     "abbreviation": {
         "wordChars": "[\\w]", 
-        "abbreviations": [
-            null
-        ], 
+        "abbreviations": [], 
         "immediate": false, 
         "ignoreCase": false, 
         "backspace": true, 
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "e", 
+        "hotKey": "d", 
         "modifiers": [
             "<super>"
         ]
