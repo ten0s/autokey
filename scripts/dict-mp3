@@ -1,0 +1,15 @@
+#!/bin/bash
+
+Url="http://dictionary.reference.com/browse/"
+
+function usage() {
+	echo "Usage: $(basename $0) <word>"
+}
+
+if [ $# -lt 1 ]; then
+	usage
+	exit 1
+fi
+
+Word=$1
+wget -q -O - $Url$Word | grep -E -o "http://.*.mp3" | head -n1 | xclip -sel clip
