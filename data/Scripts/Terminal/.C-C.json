@@ -1,5 +1,5 @@
 {
-    "usageCount": 474, 
+    "usageCount": 476, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "C-C", 
@@ -17,9 +17,7 @@
             "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "filter": {
         "regex": "gnome-terminal.Gnome-terminal", 
