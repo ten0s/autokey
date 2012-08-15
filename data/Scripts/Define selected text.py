@@ -1,28 +1,29 @@
-# get selection. xsel works more stable than clipboard.get_selection()
 word = system.exec_command("echo $(xsel)", True)
-# clear selection
-keyboard.send_keys("<right>")
-time.sleep(0.2)
-
-# open browser
-system.exec_command("gnome-open http://dictionary.reference.com/browse/" + word, False)
-
-# fetch ipa, copy it to clipboard, move to next field, and paste it
-ipa = system.exec_command("fetch-ipa '%s'" % word, True)
-#dialog.info_dialog("", ipa)
-system.exec_command("echo '%s' | xclip -sel clip" % ipa, False)
-time.sleep(0.5)
 keyboard.send_keys("<tab>")
-time.sleep(0.2)
-keyboard.send_keys("<ctrl>+V")
-time.sleep(0.2)
-
-# fetch mp3 url, copy it to clipboard, move to next field, and paste it
-url = system.exec_command("fetch-mp3-url '%s'" % word, True)
-#dialog.info_dialog("", url)
-system.exec_command("echo '%s' | xclip -sel clip" % url, False)
-time.sleep(0.5)
-keyboard.send_keys("<tab>")
-time.sleep(0.2)
-keyboard.send_keys("<ctrl>+V")
-time.sleep(0.2)
+time.sleep(0.1)
+    
+retCode, word = dialog.input_dialog("Fetch data?", word, word)
+if retCode == 0:
+    ipa = system.exec_command("fetch-ipa '%s'" % word, True)
+    retCode, ipa = dialog.input_dialog("Paste IPA?", ipa, ipa)
+    if retCode == 0:
+        system.exec_command("echo '%s' | xclip -sel clip" % ipa, False)
+        time.sleep(0.5)
+        keyboard.send_keys("<ctrl>+V")
+        time.sleep(0.1)
+        
+        keyboard.send_keys("<tab>")
+        time.sleep(0.1)
+        
+        mp3 = system.exec_command("fetch-mp3-url '%s'" % word, True)
+        retCode, mp3 = dialog.input_dialog("Paste Sound?", mp3, mp3)
+        if retCode == 0:            
+            system.exec_command("echo '%s' | xclip -sel clip" % mp3, False)
+            time.sleep(0.5)
+            keyboard.send_keys("<ctrl>+V")
+            time.sleep(0.1)
+      
+            url = system.exec_command("echo gnome-open http://dictionary.reference.com/browse/" + word, True)      
+            retCode, url = dialog.input_dialog("Open in Browser?", url, url)
+            if retCode == 0:
+                system.exec_command(url, False)
