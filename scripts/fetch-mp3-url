@@ -12,4 +12,4 @@ if [ $# -lt 1 ]; then
 fi
 
 Word=$1
-wget -q -O - $Url$Word | grep -E -o "http://.*.mp3" | head -n1 | xclip -sel clip
+wget -q -O - $Url$Word | grep -E -o '"http://.*.mp3"' | tr -d '"' | head -n1
