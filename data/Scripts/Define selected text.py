@@ -22,7 +22,7 @@ if retCode == 0:
             system.exec_command("echo '%s' | xclip -sel clip" % mp3, False)
             time.sleep(0.3)
             keyboard.send_keys("<ctrl>+V")
-            time.sleep(0.5)
+            time.sleep(2.0)
       
             url = system.exec_command("echo gnome-open http://dictionary.reference.com/browse/" + word, True)      
             retCode, url = dialog.input_dialog("Open in Browser?", url, url)
