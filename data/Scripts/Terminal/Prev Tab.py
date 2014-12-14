@@ -1,1 +1,1 @@
-keyboard.send_keys("<ctrl>+<left>")
+keyboard.send_keys("<ctrl>+<page_up>")

@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 55, 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -15,8 +15,8 @@
         "modifiers": []
     }, 
     "filter": {
-        "regex": null, 
-        "isRecursive": false
+        "regex": "xfce4-terminal.Xfce4-terminal", 
+        "isRecursive": true
     }, 
     "type": "folder", 
     "showInTrayMenu": false

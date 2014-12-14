@@ -20,7 +20,7 @@
     "modes": [], 
     "showInTrayMenu": false, 
     "filter": {
-        "regex": "gnome-terminal.Gnome-terminal", 
+        "regex": "xfce4-terminal.Xfce4-terminal", 
         "isRecursive": false
     }, 
     "type": "script", 

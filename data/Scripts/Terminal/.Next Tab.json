@@ -1,5 +1,5 @@
 {
-    "usageCount": 52, 
+    "usageCount": 57, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Next Tab", 
@@ -24,7 +24,7 @@
     ], 
     "showInTrayMenu": false, 
     "filter": {
-        "regex": "gnome-terminal.Gnome-terminal", 
+        "regex": "xfce4-terminal.Xfce4-terminal", 
         "isRecursive": false
     }, 
     "type": "script", 

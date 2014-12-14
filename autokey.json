@@ -10,14 +10,18 @@
     }, 
     "settings": {
         "showTrayIcon": true, 
+        "sortByUsageCount": false, 
+        "scriptGlobals": {}, 
+        "undoUsingBackspace": false, 
+        "notificationIcon": "autokey-status-dark", 
+        "enableQT4Workaround": false, 
+        "promptToSave": false, 
+        "menuTakesFocus": false, 
+        "interfaceType": "XRecord", 
         "windowDefaultSize": [
             1162, 
             684
         ], 
-        "undoUsingBackspace": false, 
-        "enableQT4Workaround": false, 
-        "promptToSave": false, 
-        "interfaceType": "XRecord", 
         "showToolbar": true, 
         "serviceRunning": true, 
         "columnWidths": [
@@ -25,20 +29,12 @@
             50, 
             100
         ], 
-        "isFirstRun": false, 
-        "sortByUsageCount": false, 
-        "notificationIcon": "autokey-status", 
-        "hPanePosition": 444, 
-        "menuTakesFocus": false, 
-        "workAroundApps": ".*VirtualBox.*"
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc", 
+        "hPanePosition": 450, 
+        "isFirstRun": false
     }, 
     "userCodeDir": "/home/ten0s", 
-    "version": "0.81.4", 
-    "showPopupHotkey": {
-        "hotKey": null, 
-        "modifiers": [], 
-        "enabled": false
-    }, 
+    "version": "0.90.4", 
     "configHotkey": {
         "hotKey": "k", 
         "modifiers": [

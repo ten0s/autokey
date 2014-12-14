@@ -1,2 +1,2 @@
 import subprocess
-subprocess.Popen(['gnome-terminal'])
+subprocess.Popen(['xfce4-terminal'])
