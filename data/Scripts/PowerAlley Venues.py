@@ -1,0 +1,1 @@
+system.exec_command("gnome-open '/home/ten0s/refs/alley/venues-info.ods'", False)
