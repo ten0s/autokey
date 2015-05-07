@@ -1,0 +1,1 @@
+system.exec_command("xfce4-screenshooter", False)
