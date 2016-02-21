@@ -1,2 +1,2 @@
 import subprocess
-subprocess.Popen(['firefox']) 
+subprocess.Popen(['google-chrome']) 

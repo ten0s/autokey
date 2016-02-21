@@ -1,2 +1,2 @@
 import subprocess
-subprocess.Popen(['gcalctool']) 
+subprocess.Popen(['gnome-calculator'])
