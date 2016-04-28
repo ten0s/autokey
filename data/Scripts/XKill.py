@@ -1,0 +1,1 @@
+system.exec_command("xkill", False)
