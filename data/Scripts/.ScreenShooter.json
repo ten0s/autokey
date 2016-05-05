@@ -12,10 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "n", 
+        "hotKey": "<print_screen>", 
         "modifiers": [
-            "<alt>", 
-            "<ctrl>"
+            "<super>"
         ]
     }, 
     "modes": [
