@@ -1,8 +1,8 @@
 {
-    "usageCount": 476, 
+    "usageCount": 474, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "C-C", 
+    "description": "Paste", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,15 +12,17 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "c", 
+        "hotKey": "v", 
         "modifiers": [
             "<ctrl>"
         ]
     }, 
-    "modes": [], 
+    "modes": [
+        3
+    ], 
     "showInTrayMenu": false, 
     "filter": {
-        "regex": "xfce4-terminal.Xfce4-terminal", 
+        "regex": null, 
         "isRecursive": false
     }, 
     "type": "script", 

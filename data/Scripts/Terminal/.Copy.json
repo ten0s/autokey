@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 476, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "C-V", 
+    "description": "Copy", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,14 +12,12 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "v", 
+        "hotKey": "c", 
         "modifiers": [
             "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "filter": {
         "regex": null, 
