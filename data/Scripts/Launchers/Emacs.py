@@ -1,2 +1,2 @@
 import subprocess
-subprocess.Popen(['emacs', '-mm']) 
+subprocess.Popen(['emacs', '--maximized']) 
