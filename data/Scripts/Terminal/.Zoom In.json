@@ -1,0 +1,30 @@
+{
+    "type": "script",
+    "description": "Zoom In",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 4,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [
+            "<ctrl>"
+        ],
+        "hotKey": "<np_add>"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}
