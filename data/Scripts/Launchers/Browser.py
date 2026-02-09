@@ -1,2 +1,2 @@
 import subprocess
-subprocess.Popen(['google-chrome']) 
+subprocess.Popen(['chrome.sh'])
