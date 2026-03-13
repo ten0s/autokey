@@ -1,23 +1,23 @@
 {
-    "usageCount": 55, 
+    "type": "folder",
+    "title": "Terminal",
+    "modes": [],
+    "usageCount": 80,
+    "showInTrayMenu": true,
     "abbreviation": {
-        "wordChars": "[\\w]", 
-        "abbreviations": [], 
-        "immediate": false, 
-        "ignoreCase": false, 
-        "backspace": true, 
-        "triggerInside": false
-    }, 
-    "modes": [], 
-    "title": "Terminal", 
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
     "hotkey": {
-        "hotKey": null, 
-        "modifiers": []
-    }, 
+        "modifiers": [],
+        "hotKey": null
+    },
     "filter": {
-        "regex": "xfce4-terminal.Xfce4-terminal", 
+        "regex": "xfce4-terminal.Xfce4-terminal",
         "isRecursive": true
-    }, 
-    "type": "folder", 
-    "showInTrayMenu": false
+    }
 }

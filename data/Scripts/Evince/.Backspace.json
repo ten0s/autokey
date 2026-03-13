@@ -1,9 +1,11 @@
 {
     "type": "script",
-    "description": "Search",
+    "description": "Backspace",
     "store": {},
-    "modes": [],
-    "usageCount": 6,
+    "modes": [
+        3
+    ],
+    "usageCount": 0,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
@@ -16,13 +18,11 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [
-            "<ctrl>"
-        ],
-        "hotKey": "f"
+        "modifiers": [],
+        "hotKey": "<backspace>"
     },
     "filter": {
-        "regex": "xfce4-terminal.Xfce4-terminal",
+        "regex": "evince.Evince",
         "isRecursive": false
     }
 }
